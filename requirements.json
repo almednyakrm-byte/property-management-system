@@ -1,0 +1,41 @@
+{
+  "project_name": "نظام إدارة عقارات مع إدارة العقود والpayments والتسويات",
+  "project_type": "real_estate_management",
+  "color_palette": "emerald-600 and teal-500",
+  "modules": [
+    "Properties",
+    "Contracts",
+    "Payments",
+    "Transactions"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_properties",
+    "view_property",
+    "create_contract",
+    "view_contract",
+    "make_payment",
+    "view_transaction"
+  ],
+  "permissions": {
+    "guest": [
+      "login",
+      "register"
+    ],
+    "user": [
+      "list_properties",
+      "view_property",
+      "make_payment"
+    ],
+    "admin": [
+      "list_properties",
+      "view_property",
+      "create_contract",
+      "view_contract",
+      "make_payment",
+      "view_transaction"
+    ]
+  }
+}
